@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makersplace - Dining</title>
+    <link rel="stylesheet" href="makersplace.css">
+</head>
+<body>
+    <!--Begin Header/Navigation Bar-->
+    <ul class="navbar">
+        <div class="container">
+            <a href="https://crazyfaith.family/"><li class="navparts">About Us</li></a>
+            <a href="space_usage.html"><li class="navparts">Spaces</li></a>
+            <a href="dining.html"><li class="navparts">Dining</li></a>
+            <a href="things_to_do.html"><li class="navparts">Activities</li></a>
+            <a href="makersplace.html"><li class="navparts">Home</li></a>
+            <li class="navlogo"></li>
+            <li class="navlogo"><div class="imagelogo"><img src="Images/Logo.png" width="100%" height="100%" object-fit="cover"></div></li>
+        </div>
+    </ul>
+    <!--End Header/Navigation Bar-->
+    <div class="container">
+                <h3 id="formTitle"></h3>
+                <form id="signUpForm">
+                    <div id="namesInput">
+                        <label for="firstName" class="text">First Name:</label>
+                        <input type="text" id="firstName">
+                        <br>
+                        <br>
+                        <label for="lastName" class="text">Last Name:</label>
+                        <input type="text" id="lastName">
+                    </div>
+                    <br>
+                    <div id="groupSize">
+                        <label for="groupSizeAll" id="groupSizeLabel" class="text"></label>
+                        <input type="number" id="groupSizeAll">
+                        <br>
+                        <br>
+                    </div>
+                    <div id="ageInput">
+                        <label for="age" class="text">Age:</label>
+                        <input type="number" id="age">
+                        <br>
+                        <br>
+                    </div>
+                    <label for="dateOfVisit" class="text">Date of Visit:</label>
+                    <input type="date" id="dateOfVisit">
+                    <br>
+                    <br>
+                    <button type="submit" form="signUpForm" value="Submit" class="registration">Submit</button>
+                </form>
+                <p id="submission" class="text"></p>
+    </div>
+    <!--Begin Footer/Information Bar-->
+    <br>
+    <table class="footer">
+            <tr class="container">
+                <td colspan="3" height="10px"></td>
+            </tr>
+            <tr>
+                <th colspan="3">Contact:</th>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+            </tr>
+            <tr>
+                <td class="foottype">Call:</td>
+                <td class="footspace"></td>
+                <td>(831) 313 2484</td>
+            </tr>
+            <tr>
+                <td class="foottype">Email Us:</td>
+                <td class="footspace"></td>
+                <td>theArk807@gmail.com</td>
+            </tr>
+            <tr>
+                <td class="foottype">More About Us:</td>
+                <td class="footspace"></td>
+                <td><a href="https://crazyfaith.family/">Crazy Faith Family</a></td>
+            </tr>
+    </table>
+    <!--End Footer/Information Bar-->
+
+    <script src="makersplace.js"></script>
+</body>
+</html>

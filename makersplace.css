@@ -1,0 +1,365 @@
+/* CSS for Header Begins */
+    a:link {
+        color: inherit;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    a:visited {
+        color: inherit;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    ul {
+        list-style-type: none;
+    }
+    .navbar {
+        background-color: #125812;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 10vh;
+    }
+    .navparts {
+        float: right;
+        height: 4vh;
+        padding-top: 3.5vh;
+        padding-bottom: 2.5vh;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        margin: 0;
+        background-color: #125812;
+        color: white;
+        font-size: 18px;
+    }
+    .navparts:hover {
+        background-color: #3a723a;
+    }
+    .navlogo {
+        float: left;
+        padding-top: 4px;
+        height: 90%;
+        border-color: transparent;
+        background-color: #125812;
+        color: white;
+        align-items: center;
+        vertical-align: middle;
+    }
+    .imagelogo {
+        height: 100%;
+        aspect-ratio: 1/1;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+/* CSS for the header Ends */
+/* CSS for footer Begins */
+    .footer {
+        background-color: #e1f8cb;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 200px;
+        font-size: 18px;
+        color: #125812;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+    }
+    .foottype {
+        text-align: right;
+    }
+    .footspace {
+        width: 20px;
+    }
+/* CSS for footer Ends */
+
+/* Spacing CSS */
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        max-width: 80vw; /* Desired maximum content width */
+        margin: 0 auto; /* Centers the container horizontally */
+        padding: 0 15px; /* Adds padding on the left and right sides */
+        height: 100%;
+    }
+
+/* Home Page Specific CSS Begins */
+    .title {
+        /*
+        font-size: 300%;
+        font-family: "Imprint MT Shadow";
+        background-color:#125812;
+        color: white;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        text-align: center;
+        */
+        width:50%;
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+    .top {
+        width: 50%;
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+    .slogan {
+        font-size: 3vw;
+        font-family: "sans-serif";
+        list-style: none;
+        padding: 10px;
+        margin: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+    .box {
+        background-color: #125812;
+        color: white;
+        border-style: double;
+        border-color: #e1f8cb;
+        border-width: 4px;
+        padding: 1vw;
+    }
+    .dot {
+        height: 3px;
+        width: 3px;
+        border-radius: 50%;
+        display: inline-block;
+        margin: 2.2vw;
+        background-color: #125812;
+        border-style: double;
+        border-color: #125812;
+        border-width: 4px;
+        padding: 0;
+    }
+    .quotes {
+        padding-left: 1vw;
+        padding-right: 1vw;
+        width: 25%;
+        font-size: 3vw;
+        font-family: "sans-serif";
+        text-align: center;
+    }
+    .goal {
+        padding-left: 1vw;
+        padding-right: 1vw;
+        width: 50%;
+        font-size: 4vw;
+        font-family: "sans-serif";
+        text-align: center;
+    }
+/*Home Page Specific CSS Ends*/
+
+/*Dining Specific CSS Begins*/
+    .imageFloat {
+        margin: auto;
+        padding: 4px;
+        width: 100%;
+    }
+    .sodashop {
+        float: left;
+        width: 29.33%;
+        padding: 2%;
+        font-family: "sans-serif";
+        font-size: 5vw;
+        text-align: center;
+    }
+    .sodabarpictures {
+        object-fit: cover;
+        object-position: top;
+        height: 250px;
+        width: 100%;
+    }
+    .pageTitle {
+        text-align: center;
+        font-family: "Imprint MT Shadow";
+        font-size: 10vw;
+        padding-top: 10px;
+        margin: 0px;
+    }
+    .foodOptions {
+        list-style-type: disc;
+        font-size: 2.5vw;
+        text-align: left;
+        background-color: #125812;
+        color: white;
+        height: 26vw;
+        border-style: double;
+        border-color: #e1f8cb;
+        border-width: 8px;
+    }
+    .diningroom {
+        float: left;
+        width: 46%;
+        padding: 2%;
+        font-family: "sans-serif";
+        font-size: 32px;
+        text-align: left;
+    }
+    .diningroompictures {
+        object-fit: cover;
+        object-position: top;
+        height: 350px;
+        width: 100%;
+    }
+/*Dining Specific CSS Ends*/
+
+/*Spaces Specific CSS Begins*/
+    .eventtable {
+        width: 100%;
+        align-content: center;
+    }
+    .partyImage {
+        float: center;
+        width: 50%;
+        padding: 0px;
+    }
+    .partyDescriptionBox {
+        float: center;
+        padding: auto;
+        margin: 0;
+        width: 50%;
+    }
+    .partyDescription {
+        width: 90%;
+        aspect-ratio: 4/2;
+        font-size: 4vw;
+        line-height: .1;
+        font-family: "sans-serif";
+        color: white;
+        text-align: center;
+        background-color: #125812;
+        border-color: #e1f8cb;
+        border-width: 8px;
+        border-style: double;
+        margin: auto;
+        padding: 0;
+    }
+    .partyText {
+        font-size: 3vw;
+        line-height: 1.2;
+    }
+/*Spaces Specific CSS Ends*/
+
+/*Activities Specific CSS Begins*/
+    .layout {
+        border-radius: 0;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .activity_image {
+        object-fit: cover;
+        width: 100%;
+        height: 250px;
+    }
+    .activityTitle {
+        font-size: 4vw;
+        line-height: .4;
+    }
+    .activity_text {
+        font-family: "sans-serif";
+        font-size: 3vw;
+        text-align: center;
+        width: 50%;
+    }
+    .withButton {
+        margin: 10px;
+    }
+    /*Used in form too*/
+    .registration {
+        color: white;
+        height: 40px;
+        width: 12vw;
+        background-color: #125812;
+        border-color: #e1f8cb;
+        border-width: 4px;
+        border-style: double;
+        padding:0;
+        margin:0;
+    }
+    .registration:hover {
+        color:#125812;
+        background-color: white;
+        border-color: #125812;
+    }
+/*Activites Specfic CSS Ends*/
+
+/*Form Specific CSS Begins*/
+    .text {
+        font-size: 18px;
+        line-height: 1.2;
+        font-family: "sans-serif";
+    }
+    #formTitle {
+        font-size: 24px;
+        line-height: 1.2;
+        font-family: "sans-serif";
+    }
+    input {
+        color:#125812;
+        background-color: white;
+        border-color: #125812;
+        border-width: 4px;
+        border-style: double;
+        padding:3px;
+    }
+/*Form Specific CSS Ends*/
+
+/*Media Events for all pages resize*/
+
+    @media screen and (max-width:800px) {
+        .container {
+            max-width: 640px;
+        }
+        .registration {
+            width: 96px;
+            font-size: 12px;
+        }
+    }
+
+    @media screen and (min-width: 800px) {
+        .sodashop {
+            font-size: 40px;
+        }
+        .pageTitle {
+            font-size: 80px;
+        }
+        .foodOptions {
+            font-size: 20px;
+            height: 220px;
+        }
+    }
+
+    @media screen and (min-width: 900px) {
+        .partyText {
+            font-size: 32px;
+        }
+        .partyDescription {
+            font-size: 40px;
+        }
+        .activity_text {
+            font-size: 32px;
+        }
+        .activityTitle {
+            font-size: 40px;
+        }
+    }
+    @media screen and (min-width: 1000px) {
+        .partyDescription {
+            padding-top: 1%;
+        }
+        .registration {
+            width: 120px;
+        }
+        .goal {
+            font-size: 40px;
+        }
+        .quotes {
+            font-size: 30px;
+        }
+    }

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservations</title>
+    <link rel="stylesheet" href="makersplace.css">
+</head>
+<body>
+    <!--Begin Header/Navigation Bar-->
+    <ul class="navbar">
+        <div class="container">
+            <a href="https://crazyfaith.family/"><li class="navparts">About Us</li></a>
+            <a href="space_usage.html"><li class="navparts">Spaces</li></a>
+            <a href="dining.html"><li class="navparts">Dining</li></a>
+            <a href="things_to_do.html"><li class="navparts">Activities</li></a>
+            <a href="makersplace.html"><li class="navparts">Home</li></a>
+            <li class="navlogo"></li>
+            <li class="navlogo"><div class="imagelogo"><img src="Images/Logo.png" width="100%" height="100%" object-fit="cover"></div></li>
+        </div>
+    </ul>
+    <!--End Header/Navigation Bar-->
+    <div class="container">
+        <h1>Reservations</h1>
+        <p id="golfDetails"></p>
+        <p id="escapeDetails"></p>
+        <p id="miniDetails"></p>
+    </div>
+
+
+    <script src="makersplace.js"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const golfDetails = document.getElementById("golfDetails");
+        const escapeDetails = document.getElementById("escapeDetails");
+        const miniDetails = document.getElementById("miniDetails");
+
+        // Get stored data
+        const golfSimData = JSON.parse(localStorage.getItem("golfSimulatorSignUpsList"));
+        const escapeRoomData = JSON.parse(localStorage.getItem("escapeRoomSignUpsList"));
+        const miniGolfData = JSON.parse(localStorage.getItem("miniGolfSignUpsList"));
+
+        if (golfSimData) {
+            golfDetails.textContent = "Golf Simulator Reservations: "+golfSimData.join('\n');
+        } else {
+            golfDetails.textContent = "No reservation found.";
+        }
+        if (escapeRoomData) {
+            escapeDetails.textContent = "Escape Room Reservations: "+escapeRoomData.join('\n');
+        } else {
+            escapeDetails.textContent = "No reservation found.";
+        }
+        if (miniGolfData) {
+            miniDetails.textContent = "Mini Golf Reservations: "+miniGolfData.join('\n');
+        } else{
+            miniDetails.textContent = "No reservation found.";
+        }
+    });
+    </script>
+</body>
