@@ -63,6 +63,8 @@
         list-style: none;
         display: flex;
         justify-content: space-around;
+        position: absolute;
+        bottom: 0px;
     }
     .foottype {
         text-align: right;
@@ -362,4 +364,5 @@
         .quotes {
             font-size: 30px;
         }
+
     }
